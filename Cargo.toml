@@ -11,7 +11,7 @@
 
 [package]
 edition = "2018"
-name = "eyaali-types"
+name = "astrolab-smart-coffee-types"
 version = "0.0.1"
 authors = ["ayon saha <ayonsaha2011@gmail.com>"]
 description = "Types lib"
