@@ -1,0 +1,13 @@
+pub mod get_beamandgo_list_branches;
+pub mod get_beamandgo_list_cities;
+pub mod get_beamandgo_list_products;
+pub mod get_beamandgo_list_provinces;
+pub mod get_dtone_list_countries;
+pub mod get_dtone_list_mobile_products;
+pub mod get_dtone_list_operators;
+pub mod get_dtone_list_products;
+pub mod get_dtone_list_services;
+pub mod get_easypay_list_card_classes;
+pub mod get_easypay_list_cards;
+pub mod get_easypay_list_categories;
+pub mod get_easypay_list_regions;

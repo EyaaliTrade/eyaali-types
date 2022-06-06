@@ -1,0 +1,13 @@
+pub mod get_list_activation_status;
+pub mod get_list_cities;
+pub mod get_list_civil_status;
+pub mod get_list_company_activities;
+pub mod get_list_countries;
+pub mod get_list_currencies;
+pub mod get_list_file_kinds;
+pub mod get_list_genders;
+pub mod get_list_languages;
+pub mod get_list_legal_forms;
+pub mod get_list_road_kinds;
+pub mod get_list_social_kinds;
+pub mod get_list_user_kinds;
