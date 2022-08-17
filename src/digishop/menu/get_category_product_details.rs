@@ -22,6 +22,8 @@ pub struct CategoryProductDetailsAggregation {
     pub descriptions: Option<Vec<DescriptionAggregation>>,
     pub kind: Option<String>,
     pub tags: Option<Vec<String>>,
+    pub barcode: Option<String>,
+    pub sku: Option<String>,
     pub vendor: Option<String>,
     pub vendor_id: Option<String>,
     pub brand: Option<String>,
