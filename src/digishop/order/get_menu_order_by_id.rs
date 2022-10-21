@@ -22,6 +22,7 @@ pub struct GetMenuOrderByIdResult {
     pub payment_status: Option<String>,
     pub created_at: Option<String>,
     pub updated_at: Option<String>,
+    pub comment: Option<String>
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
