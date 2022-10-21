@@ -42,7 +42,9 @@ pub struct MenuOrderAggregation {
     pub payment_status: Option<String>,
     pub created_at: Option<String>,
     pub updated_at: Option<String>,
-    pub confirmation_payment: Option<String>
+    pub confirmation_payment: Option<String>,
+    pub comment: Option<String>
+
 }
 
 #[derive(Debug, Display)]
