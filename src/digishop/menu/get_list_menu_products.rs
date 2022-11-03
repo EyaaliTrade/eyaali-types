@@ -13,7 +13,9 @@ pub struct GetListMenuProductsBody {
     pub barcode: Option<String>,
     pub brand: Option<String>,
     pub sorting: Option<String>,
-    pub language_code: Option<String>
+    pub language_code: Option<String>,
+    pub page_number: Option<i32>,
+    pub page_count: Option<i32>
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
