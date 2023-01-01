@@ -5,7 +5,8 @@ use validator::Validate;
 
 #[derive(Serialize, Deserialize, Debug, Clone, Validate)]
 pub struct GetPartialMenuCartItemsBody {
-    pub user: String,
+    pub user: Option<String>,
+    pub device: Option<String>,
     pub menu: String,
     pub discounted_cost_value: f64,
     pub delivered_cost_value: f64,
